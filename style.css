@@ -1,0 +1,168 @@
+*,
+html {
+    margin: 0;
+    padding: 0%;
+}
+
+.container {
+    background-color: aqua;
+}
+
+.container-navbar {
+    background-color: purple;
+    width: 100%;
+    height: 20%;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.li-navbar:hover {
+    background-color: white;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: pink;
+}
+
+.a-navbar {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-content {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: purple;
+    color: pink;
+    width: 20cm;
+    height: cm;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    justify-content: center top;
+    align-items: justify;
+    text-align: center;
+}
+
+.contentmain {
+    font-size: 64px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.diffcolor {
+    color: white;
+}
+
+.fig {
+    color: black;
+    text-shadow: none;
+    font-weight: 500;
+}
+
+.figma {
+    font-weight: 300;
+    text-shadow: none;
+    text-align: justify;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: none;
+    text-align: left;
+}
+
+.li-skill {
+    text-align: left;
+    text-shadow: none;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.img-index {
+    width: 60%;
+    height: 60%;
+    justify-content: space-around;
+    align-self: center;
+    margin-bottom: 20%;
+}
+
+.img-content {
+    width: 40%;
+    height: 40%;
+    align-self: center;
+}
+
+.img-contact {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 40%;
+    align-self: center;
+}
+
+.img-footcon {
+    width: 50px;
+    height: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 70%;
+    align-self: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    height: 10vh;
+}
+
+.a-footer {
+    background-color: purple;
+}
+
+.img-footer {
+    width: 30px;
+    height: 30px;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.h1-footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
